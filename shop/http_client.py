@@ -144,8 +144,10 @@ class ProductClient:
         try:
             response = self._client.request(method, path, **request_kwargs)
             status_code = response.status_code
-            if response.is_error:
-                raise HttpStatusClientError(response.status_code)
+            try:
+                response.raise_for_status()
+            except httpx.HTTPStatusError as error:
+                raise HttpStatusClientError(response.status_code) from error
             try:
                 payload = response.json()
             except ValueError as error:

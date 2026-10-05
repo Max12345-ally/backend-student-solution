@@ -45,10 +45,14 @@ def test_empty_page_is_a_success_and_client_closes() -> None:
     assert client.is_closed
 
 
-@pytest.mark.parametrize("status_code", [404, 500])
+@pytest.mark.parametrize("status_code", [302, 404, 500])
 def test_http_errors_are_not_parsed_as_products(status_code: int) -> None:
     transport = httpx.MockTransport(
-        lambda request: httpx.Response(status_code, json={"message": "error"})
+        lambda request: httpx.Response(
+            status_code,
+            headers={"location": "https://example.test/redirect"} if status_code == 302 else {},
+            json={"message": "error"},
+        )
     )
 
     with make_client(transport) as client, pytest.raises(HttpStatusClientError) as error:
