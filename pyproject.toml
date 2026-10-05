@@ -4,7 +4,10 @@ version = "0.1.0"
 description = "Учебный бэкенд магазина электроники"
 readme = "README.md"
 requires-python = ">=3.13,<3.14"
-dependencies = []
+dependencies = [
+    "httpx==0.28.1",
+    "pydantic==2.10.6",
+]
 
 [dependency-groups]
 dev = [
