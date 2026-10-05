@@ -1,12 +1,14 @@
 .PHONY: check lint typecheck test
 
+PYTHON ?= .venv/bin/python
+
 check: lint typecheck test
 
 lint:
-	python -m ruff check shop tests
+	$(PYTHON) -m ruff check shop tests
 
 typecheck:
-	python -m mypy shop
+	$(PYTHON) -m mypy shop
 
 test:
-	python -m pytest
+	$(PYTHON) -m pytest
