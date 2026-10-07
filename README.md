@@ -34,6 +34,17 @@ make check
 
 Клиент различает HTTP-ошибку, timeout, сетевую ошибку, невалидный JSON и несоответствие схеме. При успехе команда завершается с кодом 0, при ошибке — с кодом 1. POST/PUT/DELETE на DummyJSON имитируются: успешный ответ не означает, что следующее чтение увидит изменение.
 
+## B2: PostgreSQL и Docker Compose
+
+```sh
+docker compose up -d postgres
+docker compose run --rm app python -m shop.cli init-db
+docker compose run --rm app python -m shop.cli seed
+docker compose run --rm app python -m shop.cli create-order --customer customer-001 --items hp-001:1,kb-001:2
+```
+
+Данные Postgres лежат в named volume `postgres_data`, поэтому обычный `docker compose down` и последующий `up` не удаляют заказы. `docker compose down -v` удаляет volume и намеренно стирает БД.
+
 ## Зависимости
 
 `pyproject.toml` описывает проект и инструменты разработки, а `requirements.lock` фиксирует точные версии для повторяемой установки. При добавлении зависимостей lock-файл должен обновляться вместе с декларацией зависимостей.

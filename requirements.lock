@@ -12,6 +12,8 @@ mypy==1.15.0
 mypy_extensions==1.1.0
 packaging==26.3
 pluggy==1.6.0
+psycopg==3.2.3
+psycopg-binary==3.2.3
 pydantic==2.10.6
 pydantic_core==2.27.2
 pytest==8.3.5

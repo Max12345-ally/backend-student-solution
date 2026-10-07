@@ -7,6 +7,7 @@ requires-python = ">=3.13,<3.14"
 dependencies = [
     "httpx==0.28.1",
     "pydantic==2.10.6",
+    "psycopg[binary]==3.2.3",
 ]
 
 [dependency-groups]
@@ -30,3 +31,6 @@ line-length = 100
 
 [tool.ruff.lint]
 select = ["E", "F", "I", "UP"]
+
+[tool.ruff.lint.per-file-ignores]
+"shop/cli.py" = ["E501"] # Long parameterized SQL is kept readable as SQL.

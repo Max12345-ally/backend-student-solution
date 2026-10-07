@@ -1,0 +1,494 @@
+[
+  {
+    "id": "hp-001",
+    "sku": "HP-001",
+    "name": "Office Air",
+    "category": "headphones",
+    "description": "Учебный товар Office Air. Характеристики приведены в attributes.",
+    "price": "29990.00",
+    "currency": "KZT",
+    "in_stock": true,
+    "purpose_tags": [
+      "work"
+    ],
+    "attributes": {
+      "wireless": true,
+      "microphone": true
+    }
+  },
+  {
+    "id": "hp-002",
+    "sku": "HP-002",
+    "name": "Study Air",
+    "category": "headphones",
+    "description": "Учебный товар Study Air. Характеристики приведены в attributes.",
+    "price": "30000.00",
+    "currency": "KZT",
+    "in_stock": true,
+    "purpose_tags": [
+      "work",
+      "study"
+    ],
+    "attributes": {
+      "wireless": true,
+      "microphone": true
+    }
+  },
+  {
+    "id": "hp-003",
+    "sku": "HP-003",
+    "name": "Office Air Plus",
+    "category": "headphones",
+    "description": "Учебный товар Office Air Plus. Характеристики приведены в attributes.",
+    "price": "30000.01",
+    "currency": "KZT",
+    "in_stock": true,
+    "purpose_tags": [
+      "work"
+    ],
+    "attributes": {
+      "wireless": true,
+      "microphone": true
+    }
+  },
+  {
+    "id": "hp-004",
+    "sku": "HP-004",
+    "name": "Travel Air",
+    "category": "headphones",
+    "description": "Учебный товар Travel Air. Характеристики приведены в attributes.",
+    "price": "19990.00",
+    "currency": "KZT",
+    "in_stock": false,
+    "purpose_tags": [
+      "work"
+    ],
+    "attributes": {
+      "wireless": true
+    }
+  },
+  {
+    "id": "hp-005",
+    "sku": "HP-005",
+    "name": "Desk Wire",
+    "category": "headphones",
+    "description": "Учебный товар Desk Wire. Характеристики приведены в attributes.",
+    "price": "12000.00",
+    "currency": "KZT",
+    "in_stock": true,
+    "purpose_tags": [
+      "work"
+    ],
+    "attributes": {
+      "wireless": false,
+      "microphone": true
+    }
+  },
+  {
+    "id": "hp-006",
+    "sku": "HP-006",
+    "name": "Game Air",
+    "category": "headphones",
+    "description": "Учебный товар Game Air. Характеристики приведены в attributes.",
+    "price": "45000.00",
+    "currency": "KZT",
+    "in_stock": true,
+    "purpose_tags": [
+      "gaming"
+    ],
+    "attributes": {
+      "wireless": true
+    }
+  },
+  {
+    "id": "hp-007",
+    "sku": "HP-007",
+    "name": "Lesson Air",
+    "category": "headphones",
+    "description": "Учебный товар Lesson Air. Характеристики приведены в attributes.",
+    "price": "7000.00",
+    "currency": "KZT",
+    "in_stock": true,
+    "purpose_tags": [
+      "study"
+    ],
+    "attributes": {
+      "wireless": true
+    }
+  },
+  {
+    "id": "hp-008",
+    "sku": "HP-008",
+    "name": "Call Air",
+    "category": "headphones",
+    "description": "Учебный товар Call Air. Характеристики приведены в attributes.",
+    "price": "15990.00",
+    "currency": "KZT",
+    "in_stock": true,
+    "purpose_tags": [
+      "work"
+    ],
+    "attributes": {
+      "wireless": true,
+      "microphone": true
+    }
+  },
+  {
+    "id": "lp-001",
+    "sku": "LP-001",
+    "name": "Student 14",
+    "category": "laptops",
+    "description": "Учебный товар Student 14. Характеристики приведены в attributes.",
+    "price": "299990.00",
+    "currency": "KZT",
+    "in_stock": true,
+    "purpose_tags": [
+      "study"
+    ],
+    "attributes": {
+      "ram_gb": 16
+    }
+  },
+  {
+    "id": "lp-002",
+    "sku": "LP-002",
+    "name": "Student 15",
+    "category": "laptops",
+    "description": "Учебный товар Student 15. Характеристики приведены в attributes.",
+    "price": "300000.00",
+    "currency": "KZT",
+    "in_stock": true,
+    "purpose_tags": [
+      "study",
+      "work"
+    ],
+    "attributes": {
+      "ram_gb": 16
+    }
+  },
+  {
+    "id": "lp-003",
+    "sku": "LP-003",
+    "name": "Student Plus",
+    "category": "laptops",
+    "description": "Учебный товар Student Plus. Характеристики приведены в attributes.",
+    "price": "300000.01",
+    "currency": "KZT",
+    "in_stock": true,
+    "purpose_tags": [
+      "study"
+    ],
+    "attributes": {
+      "ram_gb": 32
+    }
+  },
+  {
+    "id": "lp-004",
+    "sku": "LP-004",
+    "name": "Basic 13",
+    "category": "laptops",
+    "description": "Учебный товар Basic 13. Характеристики приведены в attributes.",
+    "price": "150000.00",
+    "currency": "KZT",
+    "in_stock": false,
+    "purpose_tags": [
+      "study"
+    ],
+    "attributes": {
+      "ram_gb": 8
+    }
+  },
+  {
+    "id": "lp-005",
+    "sku": "LP-005",
+    "name": "Gaming 16",
+    "category": "laptops",
+    "description": "Учебный товар Gaming 16. Характеристики приведены в attributes.",
+    "price": "450000.00",
+    "currency": "KZT",
+    "in_stock": true,
+    "purpose_tags": [
+      "gaming"
+    ],
+    "attributes": {
+      "ram_gb": 16
+    }
+  },
+  {
+    "id": "lp-006",
+    "sku": "LP-006",
+    "name": "Campus 14",
+    "category": "laptops",
+    "description": "Учебный товар Campus 14. Характеристики приведены в attributes.",
+    "price": "220000.00",
+    "currency": "KZT",
+    "in_stock": true,
+    "purpose_tags": [
+      "study",
+      "work"
+    ],
+    "attributes": {
+      "ram_gb": 8
+    }
+  },
+  {
+    "id": "lp-007",
+    "sku": "LP-007",
+    "name": "Office 13",
+    "category": "laptops",
+    "description": "Учебный товар Office 13. Характеристики приведены в attributes.",
+    "price": "180000.00",
+    "currency": "KZT",
+    "in_stock": true,
+    "purpose_tags": [
+      "work"
+    ],
+    "attributes": {
+      "ram_gb": 8
+    }
+  },
+  {
+    "id": "lp-008",
+    "sku": "LP-008",
+    "name": "Gaming Pro",
+    "category": "laptops",
+    "description": "Учебный товар Gaming Pro. Характеристики приведены в attributes.",
+    "price": "650000.00",
+    "currency": "KZT",
+    "in_stock": true,
+    "purpose_tags": [
+      "gaming",
+      "work"
+    ],
+    "attributes": {
+      "ram_gb": 32
+    }
+  },
+  {
+    "id": "kb-001",
+    "sku": "KB-001",
+    "name": "Keyboard 1",
+    "category": "keyboards",
+    "description": "Учебный товар Keyboard 1. Характеристики приведены в attributes.",
+    "price": "10000.00",
+    "currency": "KZT",
+    "in_stock": true,
+    "purpose_tags": [
+      "work"
+    ],
+    "attributes": {
+      "wireless": false
+    }
+  },
+  {
+    "id": "kb-002",
+    "sku": "KB-002",
+    "name": "Keyboard 2",
+    "category": "keyboards",
+    "description": "Учебный товар Keyboard 2. Характеристики приведены в attributes.",
+    "price": "15000.00",
+    "currency": "KZT",
+    "in_stock": true,
+    "purpose_tags": [
+      "study"
+    ],
+    "attributes": {
+      "wireless": true
+    }
+  },
+  {
+    "id": "kb-003",
+    "sku": "KB-003",
+    "name": "Keyboard 3",
+    "category": "keyboards",
+    "description": "Учебный товар Keyboard 3. Характеристики приведены в attributes.",
+    "price": "25000.00",
+    "currency": "KZT",
+    "in_stock": true,
+    "purpose_tags": [
+      "gaming"
+    ],
+    "attributes": {
+      "wireless": false
+    }
+  },
+  {
+    "id": "kb-004",
+    "sku": "KB-004",
+    "name": "Keyboard 4",
+    "category": "keyboards",
+    "description": "Учебный товар Keyboard 4. Характеристики приведены в attributes.",
+    "price": "20000.00",
+    "currency": "KZT",
+    "in_stock": false,
+    "purpose_tags": [
+      "work"
+    ],
+    "attributes": {
+      "wireless": true
+    }
+  },
+  {
+    "id": "kb-005",
+    "sku": "KB-005",
+    "name": "Keyboard 5",
+    "category": "keyboards",
+    "description": "Учебный товар Keyboard 5. Характеристики приведены в attributes.",
+    "price": "30000.00",
+    "currency": "KZT",
+    "in_stock": true,
+    "purpose_tags": [
+      "work",
+      "study"
+    ],
+    "attributes": {
+      "wireless": true
+    }
+  },
+  {
+    "id": "kb-006",
+    "sku": "KB-006",
+    "name": "Keyboard 6",
+    "category": "keyboards",
+    "description": "Учебный товар Keyboard 6. Характеристики приведены в attributes.",
+    "price": "5000.00",
+    "currency": "KZT",
+    "in_stock": true,
+    "purpose_tags": [
+      "study"
+    ],
+    "attributes": {
+      "wireless": false
+    }
+  },
+  {
+    "id": "kb-007",
+    "sku": "KB-007",
+    "name": "Keyboard 7",
+    "category": "keyboards",
+    "description": "Учебный товар Keyboard 7. Характеристики приведены в attributes.",
+    "price": "45000.00",
+    "currency": "KZT",
+    "in_stock": true,
+    "purpose_tags": [
+      "gaming"
+    ],
+    "attributes": {
+      "wireless": true
+    }
+  },
+  {
+    "id": "mn-001",
+    "sku": "MN-001",
+    "name": "Monitor 1",
+    "category": "monitors",
+    "description": "Учебный товар Monitor 1. Характеристики приведены в attributes.",
+    "price": "60000.00",
+    "currency": "KZT",
+    "in_stock": true,
+    "purpose_tags": [
+      "study"
+    ],
+    "attributes": {
+      "diagonal_inches": 25
+    }
+  },
+  {
+    "id": "mn-002",
+    "sku": "MN-002",
+    "name": "Monitor 2",
+    "category": "monitors",
+    "description": "Учебный товар Monitor 2. Характеристики приведены в attributes.",
+    "price": "90000.00",
+    "currency": "KZT",
+    "in_stock": true,
+    "purpose_tags": [
+      "work"
+    ],
+    "attributes": {
+      "diagonal_inches": 26
+    }
+  },
+  {
+    "id": "mn-003",
+    "sku": "MN-003",
+    "name": "Monitor 3",
+    "category": "monitors",
+    "description": "Учебный товар Monitor 3. Характеристики приведены в attributes.",
+    "price": "120000.00",
+    "currency": "KZT",
+    "in_stock": true,
+    "purpose_tags": [
+      "gaming"
+    ],
+    "attributes": {
+      "diagonal_inches": 27
+    }
+  },
+  {
+    "id": "mn-004",
+    "sku": "MN-004",
+    "name": "Monitor 4",
+    "category": "monitors",
+    "description": "Учебный товар Monitor 4. Характеристики приведены в attributes.",
+    "price": "45000.00",
+    "currency": "KZT",
+    "in_stock": false,
+    "purpose_tags": [
+      "work"
+    ],
+    "attributes": {
+      "diagonal_inches": 28
+    }
+  },
+  {
+    "id": "mn-005",
+    "sku": "MN-005",
+    "name": "Monitor 5",
+    "category": "monitors",
+    "description": "Учебный товар Monitor 5. Характеристики приведены в attributes.",
+    "price": "150000.00",
+    "currency": "KZT",
+    "in_stock": true,
+    "purpose_tags": [
+      "work",
+      "gaming"
+    ],
+    "attributes": {
+      "diagonal_inches": 29
+    }
+  },
+  {
+    "id": "mn-006",
+    "sku": "MN-006",
+    "name": "Monitor 6",
+    "category": "monitors",
+    "description": "Учебный товар Monitor 6. Характеристики приведены в attributes.",
+    "price": "75000.00",
+    "currency": "KZT",
+    "in_stock": true,
+    "purpose_tags": [
+      "study",
+      "work"
+    ],
+    "attributes": {
+      "diagonal_inches": 30
+    }
+  },
+  {
+    "id": "mn-007",
+    "sku": "MN-007",
+    "name": "Monitor 7",
+    "category": "monitors",
+    "description": "Учебный товар Monitor 7. Характеристики приведены в attributes.",
+    "price": "200000.00",
+    "currency": "KZT",
+    "in_stock": true,
+    "purpose_tags": [
+      "gaming"
+    ],
+    "attributes": {
+      "diagonal_inches": 31
+    }
+  }
+]

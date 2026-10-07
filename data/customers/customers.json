@@ -1,0 +1,17 @@
+[
+  {
+    "id": "customer-001",
+    "name": "Учебный покупатель 1",
+    "contact": "buyer1@example.test"
+  },
+  {
+    "id": "customer-002",
+    "name": "Учебный покупатель 2",
+    "contact": "buyer2@example.test"
+  },
+  {
+    "id": "customer-003",
+    "name": "Учебный покупатель 3",
+    "contact": "buyer3@example.test"
+  }
+]
