@@ -18,7 +18,7 @@ services:
   app:
     build: .
     environment:
-      DATABASE_URL: postgresql://shop:shop@postgres:5432/shop
+      DATABASE_URL: postgresql://${POSTGRES_USER:-shop}:${POSTGRES_PASSWORD:-shop}@postgres:5432/${POSTGRES_DB:-shop}
     volumes:
       - .:/app
     depends_on:

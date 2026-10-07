@@ -113,6 +113,15 @@ def get_product(product_id: str) -> dict[str, Any]:
     return {**product, "price": f"{product['price']:.2f}"}
 
 
+def search_products(query: str) -> list[dict[str, Any]]:
+    with connect() as connection:
+        products = connection.execute(
+            "SELECT id, name, price FROM products WHERE name ILIKE %s ORDER BY id",
+            (f"%{query}%",),
+        ).fetchall()
+    return [{**product, "price": f"{product['price']:.2f}"} for product in products]
+
+
 def parse_items(raw_items: str) -> list[tuple[str, int]]:
     parsed: list[tuple[str, int]] = []
     seen: set[str] = set()
@@ -202,6 +211,8 @@ def build_parser() -> argparse.ArgumentParser:
     add_customer_parser.add_argument("--contact", required=True)
     get_product_parser = commands.add_parser("get-product")
     get_product_parser.add_argument("--id", required=True)
+    search_parser = commands.add_parser("search-products")
+    search_parser.add_argument("--q", required=True)
     create = commands.add_parser("create-order")
     create.add_argument("--customer", required=True)
     create.add_argument("--items", required=True)
@@ -231,6 +242,8 @@ def main() -> None:
             print("customer added")
         elif args.command == "get-product":
             print(json.dumps(get_product(args.id), default=str))
+        elif args.command == "search-products":
+            print(json.dumps(search_products(args.q)))
         elif args.command == "create-order":
             print(
                 json.dumps(
